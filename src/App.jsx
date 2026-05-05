@@ -4,6 +4,7 @@ import { InventoryProvider } from './store/InventoryContext';
 import AdminInventory from './pages/AdminInventory';
 import Gallery from './pages/Gallery';
 import Favorites from './pages/Favorites';
+import AdminInventoryCreate from './pages/AdminInventoryCreate';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/favorites" element={<Favorites />} />
           <Route path="*" element={<Navigate to="/gallery" replace />} />
+          <Route path="/admin/create" element={<AdminInventoryCreate />} />
         </Routes>
       </BrowserRouter>
     </InventoryProvider>
