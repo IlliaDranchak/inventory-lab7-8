@@ -5,6 +5,8 @@ import AdminInventory from './pages/AdminInventory';
 import Gallery from './pages/Gallery';
 import Favorites from './pages/Favorites';
 import AdminInventoryCreate from './pages/AdminInventoryCreate';
+import AdminInventoryDetails from './pages/AdminInventoryDetails';
+import AdminInventoryEdit from './pages/AdminInventoryEdit';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/favorites" element={<Favorites />} />
           <Route path="*" element={<Navigate to="/gallery" replace />} />
           <Route path="/admin/create" element={<AdminInventoryCreate />} />
+          <Route path="/admin/:id" element={<AdminInventoryDetails />} />
+          <Route path="/admin/:id/edit" element={<AdminInventoryEdit />} />
         </Routes>
       </BrowserRouter>
     </InventoryProvider>
