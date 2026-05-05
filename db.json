@@ -1,0 +1,16 @@
+{
+  "inventory": [
+    {
+      "id": "1",
+      "inventory_name": "Ноутбук Dell",
+      "description": "Ігровий ноутбук з RTX 3060",
+      "photo_url": "https://compbest.com.ua/content/images/6/igrovoy_noutbuk_dell_g15_5510_15.6_1920x1080_ips_intel_core_i7-10870h_8_16_yader_po_2.2_-_5.0_ghz_16_gb_ddr4_512_gb_ssd_m.2_nvidia_geforce_rtx_3060_6_gb_gddr6_192-bit_webcam-67947528461619.jpg"
+    },
+    {
+      "id": "2",
+      "inventory_name": "Мишка Logitech",
+      "description": "Бездротова мишка",
+      "photo_url": "https://via.placeholder.com/300?text=Mouse"
+    }
+  ]
+}

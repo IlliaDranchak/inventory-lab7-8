@@ -1,0 +1,31 @@
+.admin-page {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;          /* ← фіксований відступ між заголовком і кнопкою */
+  flex-wrap: wrap;    /* ← дозволяє переносити елементи на новий рядок */
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  word-break: break-word; /* ← ламає довгі слова, щоб не вилазили за межі */
+  flex: 1;                /* ← заголовок займає вільний простір */
+  min-width: 0;           /* ← дозволяє flex-елементу стискатися */
+}
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn-primary:hover { background: #1d4ed8; }

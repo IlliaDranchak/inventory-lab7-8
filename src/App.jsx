@@ -1,11 +1,9 @@
 // src/App.jsx
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { InventoryProvider } from './store/InventoryContext';
-
-// Заглушки сторінок (тимчасово, щоб роутинг не падав)
-const AdminInventory = () => <h1>️ Адмін-панель (ЛР7)</h1>;
-const Gallery = () => <h1>🖼️ Галерея (ЛР8)</h1>;
-const Favorites = () => <h1>❤️ Улюблені</h1>;
+import AdminInventory from './pages/AdminInventory';
+import Gallery from './pages/Gallery';
+import Favorites from './pages/Favorites';
 
 function App() {
   return (
